@@ -24,3 +24,32 @@ print(x)
 # Check if a specific person's name exist as a key in the dictionary
 
 print("Raju" in x.keys())
+
+#create a dictionary and find it's length using len)() function
+
+print(len(x))
+
+# use the keys() to print all the the keys in the dictionary
+
+y=x.keys()
+
+print(y)
+
+# use the value() to print all the values in the dictionary
+
+z=x.values()
+print(z)
+
+#use the items() method to print key-value pairs
+
+a=x.items()
+print(a)
+
+#Create a dictionary and remove a key-value pairs using pop() method
+
+x.pop("Raju")
+print(x)
+
+
+
+
